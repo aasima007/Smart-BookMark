@@ -2,8 +2,8 @@
 
 A real-time bookmark manager built with Next.js 15 (App Router), Supabase, and Tailwind CSS.
 
-**Live URL:** _[Your Vercel URL here]_  
-**Repo:** _[Your GitHub URL here]_
+**Live URL:** (https://smart-book-mark-gamma.vercel.app)
+**Repo:** (https://github.com/aasima007/Smart-BookMark)
 
 ---
 
@@ -35,7 +35,7 @@ A real-time bookmark manager built with Next.js 15 (App Router), Supabase, and T
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/smart-bookmark-app.git
+git clone https://github.com/aasima007/Smart-BookMark.git
 cd smart-bookmark-app
 npm install
 ```
@@ -52,7 +52,6 @@ npm install
 3. Create a Google Cloud OAuth app:
    - Go to [console.cloud.google.com](https://console.cloud.google.com)
    - Create project → APIs & Services → Credentials → OAuth 2.0 Client ID
-   - Authorized redirect URI: `https://YOUR_PROJECT_REF.supabase.co/auth/v1/callback`
 4. Copy the **Client ID** and **Client Secret** into Supabase
 
 ### 4. Enable Realtime
@@ -85,8 +84,8 @@ Open [http://localhost:3000](http://localhost:3000)
 2. Import repo in [vercel.com](https://vercel.com)
 3. Add the same environment variables in Vercel project settings
 4. Add your Vercel URL to Supabase Auth → **URL Configuration** → **Site URL** and **Redirect URLs**:
-   - Site URL: `https://your-app.vercel.app`
-   - Redirect URL: `https://your-app.vercel.app/auth/callback`
+   - Site URL: `https://smart-book-mark-gamma.vercel.app`
+   - Redirect URL: `https://smart-book-mark-gamma.vercel.app/auth/callback`
 
 ---
 
